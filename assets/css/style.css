@@ -231,40 +231,39 @@ li {
     h1 {
         width: 100%;
         display: block;
-        margin: 0;
+        margin:0;
         display: block;
         text-align: center;
-        font-size: 90px;
-        padding: 90px
+        font-size: 50px;
+        padding: 80px
     }
     nav {
-        text-align: center;
+        text-align:center;
         display: block;
-        font-size: 50px;
-        word-spacing: 70px;
+        font-size: 30px;
+        word-spacing: 20px;
         padding: 20px;
     }
     h2 {
-        font-size: 60px;
+        font-size: 30px;
         margin: 60px;
     }
     main {
-        border: 4px solid red;
-        margin: 26px 16px;
+        box-sizing:border-box;
+        width:100%;
         height: auto;
     }
     header {
-        width: 1000px;
+        width: 100%;
     }
     footer {
-        width: 1000px;
+        width: 100%;
     }
     .imgContentBody {
-        width: 900px;
+        width: 90%;
         box-sizing: border-box;
         border: 3px solid #ccc;
-        border: 5px solid red;
-        margin: 50px 35px
+        
     }
     p {
         display: inline-block;
@@ -283,7 +282,7 @@ li {
         height: 30px;
     }
     footer {
-        height: 190px;
-        margin: 90px 0;
+        height: 120px;
+        margin: 90px 0 0 0;
     }
 }
