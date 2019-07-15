@@ -150,8 +150,8 @@ footer {
     box-sizing: border-box;
     width: 100%;
     background-color: #777777;
-    height: 60px;
-    margin: 40px 0;
+    height: 50px;
+    margin: 40px 0 0 0;
 }
 
 #catP {
@@ -229,24 +229,25 @@ li {
 
 @media only screen and (min-width:0px) and (max-width:640px) {
     h1 {
+        word-wrap:anywhere;
         width: 100%;
-        display: block;
         margin:0;
-        display: block;
         text-align: center;
-        font-size: 50px;
-        padding: 80px
+        font-size: 40px;
+        padding: 70px;
+        
     }
     nav {
+        word-wrap:anywhere;
         text-align:center;
         display: block;
-        font-size: 30px;
+        font-size: 25px;
         word-spacing: 20px;
         padding: 20px;
     }
     h2 {
-        font-size: 30px;
-        margin: 60px;
+        font-size: 25px;
+        margin: 30px;
     }
     main {
         box-sizing:border-box;
@@ -266,8 +267,9 @@ li {
         
     }
     p {
+        word-wrap:anywhere;
         display: inline-block;
-        font-size: 70px;
+        font-size: 40px;
     }
     .divider {
         width: 90%;
