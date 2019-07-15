@@ -1,8 +1,8 @@
 header {
     border-bottom: 5px solid #ccc;
     background-color: white;
-    display:block;
-    width:100%;
+    display: block;
+    width: 100%;
 }
 
 h1 {
@@ -54,16 +54,15 @@ body {
 }
 
 .imgContentBody {
-    border:2px solid red;
+    border: 2px solid red;
     box-sizing: border-box;
     border: 3px solid #ccc;
     margin: 25px 20px 20px 30px;
     float: left;
-
 }
 
 .pImg {
-border:2px solid red;
+    border: 2px solid red;
     float: left;
     background: #4aaaa5;
     color: #ffffff;
@@ -71,7 +70,6 @@ border:2px solid red;
     height: 30px;
     margin: 200px 0 0 -225px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-
 }
 
 .imgContentBodyPortfolio {
@@ -87,7 +85,7 @@ p {
 }
 
 main {
-    border:20px solid red;
+    border: 20px solid red;
     width: 100%;
     margin: 0 auto;
     border: 2px solid #ccc;
@@ -154,7 +152,6 @@ footer {
     background-color: #777777;
     height: 60px;
     margin: 40px 0;
-    
 }
 
 #catP {
@@ -182,116 +179,111 @@ li {
     margin: 20px 0 0 30px
 }
 
-
-@media only screen and (min-width:1098px) and (max-width:1326px)  {
+@media only screen and (min-width:1098px) and (max-width:1326px) {
     h1 {
-       margin:0 350px 0 180px;
-   }
-     }
+        margin: 0 350px 0 180px;
+    }
+}
 
 @media only screen and (min-width:1014px) and (max-width:1098px) {
     h1 {
-       margin:0 380px 0 70px;
-   }
-     }
-
-
+        margin: 0 380px 0 70px;
+    }
+}
 
 @media only screen and (min-width:980px) and (max-width:1014px) {
     h1 {
-       margin:0 392px 0 30px;
-   }
-     }
-
-
-  @media only screen and (min-width:965px) and (max-width:980px) {
-    h1 {
-       margin:0 392px 0 9px;
-       }
-   }
-
- @media only screen and (min-width:768px) and (max-width:965px) {
- h1{
-margin: 0 295px 0 30px;
- }
- 
-   header{
-       
-       width:970px;      
-   }
-   footer{
-       width:1000px;
-   }
-  }
-
- @media only screen and (min-width:641px) and (max-width:768px) {
- h1{
-margin: 0 295px 0 30px;
- }
- 
-   header{
-       
-       width:970px;      
-   }
-   footer{
-       width:1000px;
-   }
-  }
-
-
-  @media only screen and (min-width:0px) and (max-width:640px) {
- 
- h1{
-width:100%;
-display:block;
-margin:0;
-display:block;
-text-align: center;
-font-size:90px;
-padding:90px
- }
-
- nav{
-     text-align:center;
-     display:block;
-     font-size:40px;
-     word-spacing:70px;
-     padding:20px;
- }
-
- h2{
-     font-size:50px
- }
-
- main{
-     border:4px solid red;
-     margin: 26px 16px;
-     height:2000px;
- }
-
-   header{
-       width:1000px;   
-   }
-
-   footer{
-       width:1000px;
-   }
-
-.imgContentBody {
-
-    position:absolute;
-    width:900px;
-    box-sizing: border-box;
-    border: 3px solid #ccc;
-    border:5px solid red;
-
+        margin: 0 392px 0 30px;
+    }
 }
 
+@media only screen and (min-width:965px) and (max-width:980px) {
+    h1 {
+        margin: 0 392px 0 9px;
+    }
+}
 
+@media only screen and (min-width:768px) and (max-width:965px) {
+    h1 {
+        margin: 0 295px 0 30px;
+    }
+    header {
+        width: 970px;
+    }
+    footer {
+        width: 1000px;
+    }
+}
 
+@media only screen and (min-width:641px) and (max-width:768px) {
+    h1 {
+        margin: 0 295px 0 30px;
+    }
+    header {
+        width: 970px;
+    }
+    footer {
+        width: 1000px;
+    }
+}
 
-
-
-
-
-  }
+@media only screen and (min-width:0px) and (max-width:640px) {
+    h1 {
+        width: 100%;
+        display: block;
+        margin: 0;
+        display: block;
+        text-align: center;
+        font-size: 90px;
+        padding: 90px
+    }
+    nav {
+        text-align: center;
+        display: block;
+        font-size: 50px;
+        word-spacing: 70px;
+        padding: 20px;
+    }
+    h2 {
+        font-size: 60px;
+        margin: 60px;
+    }
+    main {
+        border: 4px solid red;
+        margin: 26px 16px;
+        height: auto;
+    }
+    header {
+        width: 1000px;
+    }
+    footer {
+        width: 1000px;
+    }
+    .imgContentBody {
+        width: 900px;
+        box-sizing: border-box;
+        border: 3px solid #ccc;
+        border: 5px solid red;
+        margin: 50px 35px
+    }
+    p {
+        display: inline-block;
+        font-size: 70px;
+    }
+    .divider {
+        width: 90%;
+        box-sizing: border-box;
+        background-color: #4aaaa5;
+        height: 10px;
+    }
+    .dividerFooter {
+        width: 100%;
+        box-sizing: border-box;
+        background-color: #4aaaa5;
+        height: 30px;
+    }
+    footer {
+        height: 190px;
+        margin: 90px 0;
+    }
+}
